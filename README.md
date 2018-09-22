@@ -1,1 +1,2 @@
-# spotter_mvp
+# spotter
+Spotter backend service

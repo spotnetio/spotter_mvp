@@ -1,0 +1,27 @@
+{
+  "name": "matcher",
+  "version": "1.0.0",
+  "description": "Matcher monitors onchain events, updates its inventory and matches borrowers to lenders",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2"
+  },
+  "author": "Marat",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.22.0",
+    "node-binance-api": "^0.8.3",
+    "ramda": "^0.25.0",
+    "truffle-contract": "^3.0.4",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "^0.20.0"
+  }
+}
